@@ -1,3 +1,5 @@
 .lein*
 pom.xml
 /target/
+/resources/locales.clj
+/dev-resources/i18n/bin
