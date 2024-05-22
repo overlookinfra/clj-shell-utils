@@ -5,7 +5,9 @@
 
   :parent-project {:coords [puppetlabs/clj-parent "7.3.15"]
                    :inherit [:managed-dependencies]}
-
+  :license {:name "Apache-2.0"
+            :url "https://www.apache.org/licenses/LICENSE-2.0.txt"}
+            
   :pedantic? :abort
 
   :test-paths ["test/unit"]
@@ -35,7 +37,7 @@
                                      :username :env/clojars_jenkins_username
                                      :password :env/clojars_jenkins_password
                                      :sign-releases false}]
-                        ["snapshots" "http://nexus.delivery.puppetlabs.net/content/repositories/snapshots/"]])
+                        ["snapshots" "https://artifactory.delivery.puppetlabs.net/artifactory/list/clojure-snapshots__local/"]])
 
 
 
