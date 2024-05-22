@@ -1,4 +1,4 @@
-(defproject puppetlabs/clj-shell-utils "2.0.1-SNAPSHOT"
+(defproject puppetlabs/clj-shell-utils "2.0.1"
   :description "Clojure shell execution utilities"
 
   :min-lein-version "2.9.0"
